@@ -1,0 +1,63 @@
+worlds:
+  - name: world
+    template: normal
+    title: "Oberwelt"
+    extrazoomout: 1
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: map
+        title: "Karte"
+        perspective: iso_S_90_lowres
+        lighting: shadows
+        mapzoomin: 1
+        background: "#d6be96"
+      #- class: org.dynmap.hdmap.HDMap
+      #  name: test
+      #  title: "Oberfläche"
+      #  perspective: iso_SE_60_medres
+      #  lighting: shadows
+      #  mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Luftbild"
+        perspective: iso_SE_30_medres
+        lighting: shadows
+        mapzoomin: 1
+        background: "#d6be96"
+      #- class: org.dynmap.hdmap.HDMap
+      #  name: surface_nw
+      #  title: "Luftbild (SO)"
+      #  perspective: iso_NW_30_medres
+      #  lighting: shadows
+      #  mapzoomin: 1
+  - name: world_nether
+    template: nether
+    title: "Nether"
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: map
+        title: "Karte"
+        perspective: iso_S_90_vlowres
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Oberfläche"
+        perspective: iso_SE_60_lowres
+  - name: world_the_end
+    template: the_end
+    title: "Ende"
+    extrazoomout: 1
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: map
+        title: "Karte"
+        perspective: iso_S_90_lowres
+        lighting: vikos_end
+        background: "#170817"
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Oberfläche"
+        perspective: iso_SE_30_lowres
+        lighting: vikos_end
+        background: "#170817"
+        icon: images/block_the_end_surface.png
