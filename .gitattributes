@@ -8,7 +8,7 @@
 # Dynmap
 plugins/dynmap/**.txt linguist-detectable=true
 plugins/dynmap/**.txt linguist-language=YAML
-plugins/dynmap/worlds.md.txt linguist-detectable=false
+plugins/dynmap/web/index.html linguist-vendored=true
 
 # Server
 ops.json linguist-detectable=false
