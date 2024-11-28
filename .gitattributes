@@ -1,0 +1,15 @@
+# Syntax
+*.yml linguist-detectable=true
+*.properties linguist-detectable=true
+*.bat linguist-detectable=true
+*.sh linguist-detectable=true
+*.json linguist-detectable=true
+
+# Dynmap
+plugins/dynmap/**.txt linguist-detectable=true
+plugins/dynmap/**.txt linguist-language=YAML
+plugins/dynmap/worlds.md.txt linguist-detectable=false
+
+# Server
+ops.json linguist-detectable=false
+whitelist.json linguist-detectable=false

@@ -1,0 +1,293 @@
+# -------------------------------------------------#
+#        Meta-Maltino-Minecraftprojekt            #
+#              commands.yml preset                #
+# -------------------------------------------------#
+
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+# Entregistrierungen von Ungebrauchten und Befehlen mit Namensraum
+  about:
+  - []
+  advancedban:advancedban:
+  - []
+  advancedban:ban:
+  - []
+  advancedban:ban-ip:
+  - []
+  advancedban:banip:
+  - []
+  advancedban:banlist:
+  - []
+  advancedban:change-reason:
+  - []
+  advancedban:check:
+  - []
+  advancedban:history:
+  - []
+  advancedban:ipban:
+  - []
+  advancedban:kick:
+  - []
+  advancedban:mute:
+  - []
+  advancedban:note:
+  - []
+  advancedban:notes:
+  - []
+  advancedban:systemprefs:
+  - []
+  advancedban:tempban:
+  - []
+  advancedban:tempipban:
+  - []
+  advancedban:tempmute:
+  - []
+  advancedban:tempwarn:
+  - []
+  advancedban:tipban:
+  - []
+  advancedban:unban:
+  - []
+  advancedban:unmute:
+  - []
+  advancedban:unnote:
+  - []
+  advancedban:unpunish:
+  - []
+  advancedban:unwarn:
+  - []
+  advancedban:warn:
+  - []
+  advancedban:warns:
+  - []
+  bettermessages:
+  - []
+  bettermessages:bettermessages:
+  - []
+  bettermessages:bm:
+  - []
+  bm:
+  - []
+  bukkit:?:
+  - []
+  bukkit:about:
+  - []
+  bukkit:help:
+  - []
+  bukkit:pl:
+  - []
+  bukkit:plugins:
+  - []
+  bukkit:reload:
+  - []
+  bukkit:rl:
+  - []
+  bukkit:ver:
+  - []
+  bukkit:version:
+  - []
+  callback:
+  - []
+  core:
+  - []
+  coreprotect:co:
+  - []
+  coreprotect:core:
+  - []
+  coreprotect:coreprotect:
+  - []
+  craftenhance:ceh:
+  - []
+  craftenhance:edititem:
+  - []
+  craftenhance:recipes:
+  - []
+  customwings:
+  - []
+  discordsrv:
+  - []
+  discordsrv:discord:
+  - []
+  discordsrv:discordsrv:
+  - []
+  dmap:
+  - []
+  dynmapexp:
+  - []
+  dynmap:dmap:
+  - []
+  dynmap:dmarker:
+  - []
+  dynmap:dynmap:
+  - []
+  dynmap:dynmapexp:
+  - []
+  emote:
+  - []
+  fabric-command-api-v2:client:
+  - []
+  f3nperm:
+  - []
+  f3nperm:f3nperm:
+  - []
+  gbellyflop:
+  - []
+  gcrawl:
+  - []
+  gemote:
+  - []
+  glay:
+  - []
+  gsit:
+  - []
+  gsit:bellyflop:
+  - []
+  gsit:crawl:
+  - []
+  gsit:emote:
+  - []
+  gsit:gbellyflop:
+  - []
+  gsit:gcrawl:
+  - []
+  gsit:gemote:
+  - []
+  gsit:glay:
+  - []
+  gsit:gsit:
+  - []
+  gsit:gspin:
+  - []
+  gsit:lay:
+  - []
+  gsit:spin:
+  - []
+  gspin:
+  - []
+  jfr:
+  - []
+  # lp:
+  # - []
+  luckperms:
+  - []
+  luckperms:lp:
+  - []
+  luckperms:luckperms:
+  - []
+  luckperms:perm:
+  - []
+  luckperms:permission:
+  - []
+  luckperms:permissions:
+  - []
+  luckperms:perms:
+  - []
+  maintenance:maintenance:
+  - []
+  maintenance:mt:
+  - []
+  minecraft:help:
+  - []
+  minecraft:me:
+  - []
+  minecraft:msg:
+  - []
+  minecraft:teammsg:
+  - []
+  minecraft:tell:
+  - []
+  minecraft:tm:
+  - []
+  minecraft:trigger:
+  - []
+  minecraft:w:
+  - []
+  minecraft:*:
+  - []
+  paper:callback:
+  - []
+  perf:
+  - []
+  perm:
+  - []
+  permissions:
+  - []
+  perms:
+  - []
+  pm:
+  - []
+  pl:
+  - []
+  seen:customwings:
+  - []
+  seen:wings:
+  - []
+  spigot:tps:
+  - []
+  spigot:restart:
+  - []
+  t:
+  - []
+  tab:tab:
+  - []
+  tm:
+  - []
+  ver:
+  - []
+  voicechat:voicechat:
+  - []
+  w:
+  - []
+  whisper:
+  - []
+  '?':
+  - []
+  
+  # Entregistrierungen von Essentials
+  emsg:
+  - []
+  epm:
+  - []
+  er:
+  - []
+  ereply:
+  - []
+  essentials:emsg:
+  - []
+  essentials:epm:
+  - []
+  essentials:er:
+  - []
+  essentials:ereply:
+  - []
+  essentials:etell:
+  - []
+  essentials:ewhisper:
+  - []
+  essentials:m:
+  - []
+  essentials:msg:
+  - []
+  essentials:pm:
+  - []
+  essentials:r:
+  - []
+  essentials:reply:
+  - []
+  essentials:t:
+  - []
+  essentials:tell:
+  - []
+  essentials:w:
+  - []
+  essentials:whisper:
+  - []
+  etell:
+  - []
+  ewhisper:
+  - []
+  m:
+  - []
+  r:
+  - []
