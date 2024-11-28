@@ -1,0 +1,52 @@
+# Teams & Mitgliederliste
+:Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line:
+> :Allowed: Beigetreten
+> :Member: Beigetreten, Spielername unbekannt
+> :grey_question: Angefragt
+> :Forbidden: Abgesagt
+> :Leave: Quitiert
+> :Ban: Gebannt
+> :Timeout: Temporär Gebannnt
+> :question: Angemeldet aber nie gejoint
+> :no_entry_sign: Auf der Blacklist
+> 
+> Bei eingerückten Spielern handelt es sich um autonome Gruppen, die die globalen Ansichten des Teams teilen
+:Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line:
+
+### ROSTIGER:
+:Allowed: @annhilati 
+:Allowed: @minmag_lp 
+:Allowed: @guardian__hyrule 
+:Allowed: @moritzkillsquad_92257 
+:Allowed: @shyjoshi
+:Allowed: @martula11 
+:Allowed: @brokoli8502 
+:Allowed: @babynock 
+
+### CHICKEN
+:Allowed: @laemmicore 
+:Allowed: @basiszock 
+:Allowed: @goggelha 
+:Allowed: @friedl3130 
+
+### Idschis
+:Allowed: @randomdude1_  
+:Allowed: @nobbel_bohrer 
+
+### Beulenplatzer
+:Forbidden: @pringelchen 
+:Allowed: @maltino_2 
+:Allowed: @german_daddy 
+
+
+:Allowed: @dopesince  (24h Tempban für die Verwendung verfassungsfeindlicher Symbole)
+:Allowed: @ne_brudi  (7d Tempban für die Verwendung verfassungsfeindlicher Symbole)
+
+:Leave: @whycomfy 
+:Leave: @arminodo 
+:Leave: @craftierbulb701 
+:Leave: @0tal_ 
+:Leave: @luke
+:Leave: @jakob_133737
+:Leave: @_anton_wahl_ 
+:Leave: @schredder09

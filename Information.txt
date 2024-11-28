@@ -1,0 +1,50 @@
+Der dritte Teil einer großartigen Reihe von immer besser werdenden Minecraft-Projekten
+
+# Modus
+
+**SURVIVAL MULTIPLAYER**
+
+:Member: Teams: freie Verfügung, keine Anzeige im Tab
+:Partner: Shops: frei organisiert
+
+# :Rules: Regeln (gem. [Def. f. Tatb.](https://blazesmeta.notion.site/Definitionen-f-r-Tatbest-nde-ade882b8560d4e80b378ecef43c96af8))
+
+:Forbidden: Spamming
+:Forbidden: Cheating 
+:Forbidden: Makros
+:Allowed: Freecam
+:Forbidden: X-Raying
+:Forbidden: Griefing
+:Forbidden: Looting 
+:Forbidden: Vandalistisches Griefing
+:Forbidden: Verwendung eines Carpet-Dupers **für Brennstoff**
+:Forbidden: String-Duper
+:Allowed: TNT-Duper
+:Allowed: Block-Breaking-Exploits
+
+# :Gift: WICHTIGE FEATURES
+## :Staff: ALLGEMEIN
+:Allowed: Bundles :package:
+:Allowed: Villager Rebalance :package:
+:Allowed: DropHeads
+:Allowed: GSit
+:Allowed: CoreProtect
+:Forbidden: [Simple Voicechat](https://modrinth.com/plugin/simple-voice-chat) Endpoint
+:Allowed: Discord Crosschat
+:Allowed: dynmap
+
+## :Navigation: Worldgen
+:Allowed: [Terralith](https://modrinth.com/datapack/terralith) & Terratonic
+:Forbidden: Incendium
+:Forbidden: Nullscape
+
+# :Link: Zugangsdaten
+➥ **Server-IP**: `blazesmeta.g-portal.game`
+➥ **Alternativ-IP:** `eu7113208.g-portal.game`
+➥ **Bedrock-Port:** `32867`
+➥ **Whitelist:** aktiviert (Das Team sammelt alle Ingame-Namen)
+➥ **Version:** 1.21
+
+➥ **Interaktive Karte:** http://blazesmeta.g-portal.game:32866
+
+Ganz zum Anfang :Join:https://discord.com/channels/890190896530849792/1272228900839227485/1275458911180165162
