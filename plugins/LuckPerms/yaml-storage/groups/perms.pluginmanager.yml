@@ -1,1 +1,6 @@
 name: perms.pluginmanager
+permissions:
+- lp.*
+- minecraft.*
+- worldedit.*
+- worldguard.*
