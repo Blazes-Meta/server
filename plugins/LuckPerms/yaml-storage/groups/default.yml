@@ -1,0 +1,4 @@
+name: default
+permissions:
+- bukkit.command.tps
+- craftenhance.view

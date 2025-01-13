@@ -1,0 +1,6 @@
+name: perms.moderation
+permissions:
+- minecraft.command.ban
+- minecraft.command.banlist
+- minecraft.command.kick
+- minecraft.command.whitelist
