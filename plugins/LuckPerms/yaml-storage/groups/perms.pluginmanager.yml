@@ -1,6 +1,9 @@
 name: perms.pluginmanager
 permissions:
+- ab.*
 - lp.*
+- luckperms.*
 - minecraft.*
+- ultimateteams.*
 - worldedit.*
 - worldguard.*

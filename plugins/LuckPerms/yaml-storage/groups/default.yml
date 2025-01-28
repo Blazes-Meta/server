@@ -1,4 +1,8 @@
 name: default
 permissions:
+- ab.notify.ban
+- ab.notify.kick
+- ab.notify.tempban
+- ab.undoNotify.ban
 - bukkit.command.tps
 - craftenhance.view

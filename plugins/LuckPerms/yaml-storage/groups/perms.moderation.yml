@@ -1,5 +1,9 @@
 name: perms.moderation
 permissions:
+- ab.ban.temp
+- ab.banlist
+- ab.history
+- ab.kick.use
 - minecraft.command.ban
 - minecraft.command.banlist
 - minecraft.command.kick

@@ -1,1 +1,5 @@
-name: perms.servermanager
+name: perms.administration
+permissions:
+- ab.ban.exempt
+- ab.ban.perma
+- ab.ban.undo
