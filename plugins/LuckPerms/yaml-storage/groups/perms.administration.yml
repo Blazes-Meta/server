@@ -3,3 +3,5 @@ permissions:
 - ab.ban.exempt
 - ab.ban.perma
 - ab.ban.undo
+- invseeplusplus.edit
+- invseeplusplus.view

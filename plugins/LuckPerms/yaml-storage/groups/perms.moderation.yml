@@ -4,6 +4,7 @@ permissions:
 - ab.banlist
 - ab.history
 - ab.kick.use
+- floodgate.command.fwhitelist
 - minecraft.command.ban
 - minecraft.command.banlist
 - minecraft.command.kick
