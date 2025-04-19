@@ -25,54 +25,55 @@
 # !! If there are errors in the console after editing this file paste it into an online YAML parser to see if
 # there are any YAML syntax errors !!
 Messages:
-  NoPermission: '&4Denied access! You are not allowed to do this.'
-  InvalidUsage: '&cInvalid usage, you can use &6/sv help&c for a list of commands.'
-  VanishMessage: '&c<< &f%p%'
-  ReappearMessage: '&a>> &f%p%'
-  VanishMessageWithPermission: '&a[SV] %p% vanished.'
-  ReappearMessageWithPermission: '&a[SV] %p% reappeared.'
-  OnVanish: '&aYou are now invisible!'
-  OnReappear: '&aYou are no longer invisible!'
-  OnVanishCausedByOtherPlayer: '&a%other% hid you, you are now invisible!'
-  OnReappearCausedByOtherPlayer: '&a%other% showed you, you are now visible!'
-  AlreadyVanishedError: '&cYou are already invisible!'
-  NotVanishedError: '&cYou are not invisible!'
-  SilentJoinMessageForAdmins: '&a[SV] %p% joined silently.'
-  SilentQuitMessageForAdmins: '&a[SV] %p% left silently.'
-  SilentDeathMessage: '&a[SV] %deathmsg%'
-  RemindingMessage: '&aYou are still invisible!'
-  ListMessagePrefix: '&aInvisible Players:&f %l'
-  ActionBarMessage: '&aYou are invisible to other players!'
-  HideOtherMessage: '&aPlayer &e%other%&a is now invisible!'
-  ShowOtherMessage: '&aPlayer &e%other%&a is now visible!'
-  CannotHideOtherPlayer: '&cYou''re not allowed to change %other%''s visibility!'
-  AlreadyInvisibleMessage: '&cPlayer &e%other%&c is already invisible!'
-  AlreadyVisibleMessage: '&cPlayer &e%other%&c is already visible!'
-  PluginReloaded: '&aSuccessfully reloaded SuperVanish (%time%ms)!'
-  InvalidSender: '&cYou must be a player to execute this command!'
-  PlayerNotOnline: '&cThat player is not online!'
-  PlayerNonExistent: '&cThat player doesn''t exist!'
-  ToggledPickingUpItemsOn: '&ePicking up items is now turned &aON&e.'
-  ToggledPickingUpItemsOff: '&ePicking up items is now turned &cOFF&e.'
-  UpdateWarning: '&cWarning! Recreating %updates% resets %changes%. Please use &e/sv recreatefiles confirm&c if you''d like to continue.'
-  RecreatedConfig: '&aSuccessfully recreated %updates%! Please check %changes%.'
-  NoConfigUpdateAvailable: '&eYour SuperVanish-files are up to date!'
-  RecreationRequiredMsg: '&c[SV] Your SuperVanish-files are not up to date, you can use &e/sv recreatefiles&c to recreate them
-  or use /sv recreatefiles dismiss to dismiss this message.
-  Recreating SuperVanish''s files gives you access to newer settings and features of the plugin.'
-  DismissedRecreationWarning: '&eYou are no longer receiving notifications about this recreation.'
-  UndismissedRecreationWarning: '&eYou are now receiving notifications about this recreation.'
-  PrintedStacktrace: '&eSuccessfully created a stacktrace, see console!'
-  EntityHitDenied: '&c[SV] You can''t hit players or mobs in vanish!'
-  BlockPlaceDenied: '&c[SV] You can''t place blocks in vanish!'
-  BlockBreakDenied: '&c[SV] You can''t break blocks in vanish!'
-  PluginOutdated: '&c[SV] Your current version of SuperVanish is outdated. New version: ''%new%''; Currently: ''%current%'''
-  DynmapFakeJoin: '%d% joined'
-  DynmapFakeQuit: '%d% quit'
-  HelpHeader: "&a<---------------&e SuperVanish-Help &a--------------->"
+  NoPermission: '&4Zugriff verweigert! Du darfst das nicht tun.'
+  InvalidUsage: '&cFalsche Nutzung, verwende &6/sv help&c für eine Liste aller Befehle.'
+  VanishMessage: '&c<< &f%p%'  # Nachricht für andere Spieler
+  ReappearMessage: '&a>> &f%p%'  # Nachricht für andere Spieler
+  VanishMessageWithPermission: '&a[SV] %p% ist nun unsichtbar.'
+  ReappearMessageWithPermission: '&a[SV] %p% ist wieder sichtbar.'
+  OnVanish: '&aDu bist jetzt unsichtbar!'
+  OnReappear: '&aDu bist nicht mehr unsichtbar!'
+  OnVanishCausedByOtherPlayer: '&a%other% hat dich versteckt, du bist jetzt unsichtbar!'
+  OnReappearCausedByOtherPlayer: '&a%other% hat dich sichtbar gemacht, du bist jetzt sichtbar!'
+  AlreadyVanishedError: '&cDu bist bereits unsichtbar!'
+  NotVanishedError: '&cDu bist nicht unsichtbar!'
+  SilentJoinMessageForAdmins: '&a[SV] %p% ist lautlos beigetreten.'
+  SilentQuitMessageForAdmins: '&a[SV] %p% hat lautlos das Spiel verlassen.'
+  SilentDeathMessage: '&a[SV] %deathmsg%'  # %deathmsg% wird durch die normale Todesnachricht ersetzt
+  RemindingMessage: '&aDu bist weiterhin unsichtbar!'
+  ListMessagePrefix: '&aUnsichtbare Spieler:&f %l'  # %l% wird mit der Liste ersetzt
+  ActionBarMessage: '&aDu bist für andere Spieler unsichtbar!'
+  HideOtherMessage: '&aSpieler &e%other%&a ist jetzt unsichtbar!'
+  ShowOtherMessage: '&aSpieler &e%other%&a ist jetzt sichtbar!'
+  CannotHideOtherPlayer: '&cDu darfst die Sichtbarkeit von %other% nicht ändern!'
+  AlreadyInvisibleMessage: '&cSpieler &e%other%&c ist bereits unsichtbar!'
+  AlreadyVisibleMessage: '&cSpieler &e%other%&c ist bereits sichtbar!'
+  PluginReloaded: '&aSuperVanish erfolgreich neu geladen (%time%ms)!'
+  InvalidSender: '&cNur Spieler können diesen Befehl ausführen!'
+  PlayerNotOnline: '&cDieser Spieler ist nicht online!'
+  PlayerNonExistent: '&cDiesen Spieler gibt es nicht!'
+  ToggledPickingUpItemsOn: '&eItems aufheben ist jetzt &aAKTIV&e.'
+  ToggledPickingUpItemsOff: '&eItems aufheben ist jetzt &cDEAKTIVIERT&e.'
+  UpdateWarning: '&cWarnung! Das Wiederherstellen von %updates% setzt %changes% zurück. Verwende &e/sv recreatefiles confirm&c, um fortzufahren.'
+  RecreatedConfig: '&a%updates% erfolgreich wiederhergestellt! Überprüfe %changes%.'
+  NoConfigUpdateAvailable: '&eDeine SuperVanish-Dateien sind aktuell!'
+  RecreationRequiredMsg: |
+    &c[SV] Deine SuperVanish-Dateien sind veraltet. Du kannst &e/sv recreatefiles&c ausführen,
+    oder mit /sv recreatefiles dismiss diese Nachricht unterdrücken.
+    Durch das Wiederherstellen erhältst du Zugriff auf neue Einstellungen und Funktionen.
+  DismissedRecreationWarning: '&eDu erhältst keine Hinweise mehr zur Wiederherstellung.'
+  UndismissedRecreationWarning: '&eDu erhältst nun wieder Hinweise zur Wiederherstellung.'
+  PrintedStacktrace: '&eStacktrace erfolgreich erstellt, siehe Konsole!'
+  EntityHitDenied: '&c[SV] Du kannst im Unsichtbarkeitsmodus keine Spieler oder Mobs schlagen!'
+  BlockPlaceDenied: '&c[SV] Du kannst im Unsichtbarkeitsmodus keine Blöcke platzieren!'
+  BlockBreakDenied: '&c[SV] Du kannst im Unsichtbarkeitsmodus keine Blöcke abbauen!'
+  PluginOutdated: '&c[SV] Deine Version von SuperVanish ist veraltet. Neue Version: ''%new%''; Aktuell: ''%current%'''
+  DynmapFakeJoin: '%d% ist dem Spiel beigetreten'
+  DynmapFakeQuit: '%d% hat das Spiel verlassen'
+  HelpHeader: "&a<---------------&e SuperVanish-Hilfe &a--------------->"
   HelpFormat: "&6%usage% &7- &b%description% &c(%permission%)"
-  PlaceholderIsVanishedYes: "Yes"
-  PlaceholderIsVanishedNo: "No"
+  PlaceholderIsVanishedYes: "Ja"
+  PlaceholderIsVanishedNo: "Nein"
   PlaceholderVanishPrefix: '&a[V] &r'
   PlaceholderVanishSuffix: ' &r&a[V]'
 MessagesVersion: 6.2.20
