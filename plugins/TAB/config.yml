@@ -1,8 +1,9 @@
 header-footer:
   enabled: true
   header:
-  - <#d6ab39>&m                                                </#efdd61>
-  - '&6&l>> &eDungeons SMP &6&l<<'
+  - <#EB9A2F>&m                                                </#ecd95e>
+  - '&6☠ &l<#FFCB56>Dunge</#EB9A2F><#EB9A2F>ons SMP</#FFCB56> &r&6☠'
+  - '&l<#6027D2>ʙʟᴀᴢᴇꜱ ᴍᴇᴛᴀ</#B01EFF> '
   - ''
   - '&f%online% &r&7Spieler online'
   - ''
@@ -11,7 +12,7 @@ header-footer:
   - '&7Uhrzeit &b%time%'
   - '&c[%tps% TPS]'
   - '&c[%memory-used-gb% / %memory-max-gb% GB]'
-  - <#efdd61>&m                                                </#d6ab39>
+  - <#ecd95e>&m                                                </#EB9A2F>
 tablist-name-formatting:
   enabled: true
   anti-override: true
@@ -22,7 +23,8 @@ scoreboard-teams:
   invisible-nametags: false
   anti-override: false
   sorting-types:
-  - PLACEHOLDER_HIGH_TO_LOW:%luckperms_highest_group_weight%
+  - PLACEHOLDER_A_TO_Z:%ultimateteams_teamPrefix%
+  #- PLACEHOLDER_HIGH_TO_LOW:%luckperms_highest_group_weight%
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: false
   can-see-friendly-invisibles: false
