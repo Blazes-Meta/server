@@ -96,15 +96,15 @@ chat-spy:
 # Set the maximum amount of allied teams that can a team can have. [Default value: 4]
 max-team-allies: 4
 # Set the maximum amount of enemies teams that can a team can have. [Default value: 2
-max-team-enemies: 2
+max-team-enemies: 4
 pvp:
   # Globally enable the team friendly fire system (the friendly fire is disabled by default in new teams). [Default value: true]
-  pvp-command: true
+  pvp-command: false
   # Enable the ability for a player to bypass the pvp protection using 'ultimateteams.bypass.pvp'. [Default value: true]
   pvp-command-bypass-permission: true
 team-home:
   # Enable the '/team [sethome|home]' system. [Default value: true]
-  enabled: true
+  enabled: false
   # Define the delay (cooldown) in seconds before the tp starts.
   # This value has no effect if using HuskHomes as teleport handler
   tp-delay: 3

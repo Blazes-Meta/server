@@ -1,8 +1,21 @@
 name: default
 permissions:
+- ultimateteams.team.*
 - ab.notify.ban
 - ab.notify.kick
 - ab.notify.tempban
 - ab.undoNotify.ban
 - bukkit.command.tps
 - craftenhance.view
+- ultimateteams.team.delwarp:
+    value: false
+- ultimateteams.team.home:
+    value: false
+- ultimateteams.team.pvp:
+    value: false
+- ultimateteams.team.sethome:
+    value: false
+- ultimateteams.team.setwarp:
+    value: false
+- ultimateteams.team.warp:
+    value: false

@@ -5,5 +5,5 @@ parents:
 - perms.pluginmanager
 - perms.servermanager
 suffixes:
-- ' &8[&#AE0000ᴏ&#C20000ᴡ&#D60000ɴ&#E90000ᴇ&#FD0000ʀ&8]':
+- ' &8[&#AE0000&lᴏ&#C20000&lᴡ&#D60000&lɴ&#E90000&lᴇ&#FD0000&lʀ&8]':
     priority: 100

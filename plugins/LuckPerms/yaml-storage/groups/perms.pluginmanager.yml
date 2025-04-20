@@ -4,6 +4,7 @@ permissions:
 - lp.*
 - luckperms.*
 - minecraft.*
+- tab.*
 - ultimateteams.*
 - worldedit.*
 - worldguard.*
