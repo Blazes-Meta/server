@@ -4,6 +4,7 @@ permissions:
 - lp.*
 - luckperms.*
 - minecraft.*
+- placeholderapi.*
 - tab.*
 - ultimateteams.*
 - worldedit.*
