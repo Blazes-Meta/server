@@ -1,0 +1,14 @@
+# Plugin default Placeholders:
+#
+# {name} - Username of the player.
+# {displayname} - Displayname of the player.
+# {world} - Name of the world the player is in.
+# {message} - Message that the player has sent.
+# ----------------------------------------------
+# The Chat format: [You can use the plugin placeholders or you can use placeholders form PlaceholdersAPI]
+ChatFormat: '%changeoutput_equals_input:{ultimateteams_teamPrefix}_matcher:Not in a team_ifmatch:_else:&8[&r{ultimateteams_teamPrefix}&8] %&r{displayname}&r: &7{message}'
+# -------------------------------------------------------
+# The plugin messages:
+messages:
+  reload: '&7[&9ChatFormatter&7] &aSucessfully reloaded the plugin'
+  noperms: '&7[&9ChatFormatter&7] &cYou do not have the permission for that'
