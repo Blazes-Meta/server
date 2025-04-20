@@ -1,18 +1,17 @@
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
   header:
-  - <#6027d2>&m                                                </#9c27d2>
-  - '&5&l>> &dMeta SMP 3 &5&l<<'
+  - <#d6ab39>&m                                                </#efdd61>
+  - '&6&l>> &eDungeons SMP &6&l<<'
   - ''
-  - '&f%online% &7Spieler online'
+  - '&f%online% &r&7Spieler online'
   - ''
   footer:
   - ''
   - '&7Uhrzeit &b%time%'
   - '&c[%tps% TPS]'
   - '&c[%memory-used-gb% / %memory-max-gb% GB]'
-  - <#9c27d2>&m                                                </#6027d2>
+  - <#efdd61>&m                                                </#d6ab39>
 tablist-name-formatting:
   enabled: true
   anti-override: true
@@ -23,35 +22,25 @@ scoreboard-teams:
   invisible-nametags: false
   anti-override: false
   sorting-types:
-  #- PLACEHOLDER:%condition:isDefault%,false,true
   - PLACEHOLDER_HIGH_TO_LOW:%luckperms_highest_group_weight%
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: false
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
-  unlimited-nametag-mode:
-    enabled: true
-    disable-on-boats: true
-    disable-condition: '%world%=disabledworld'
-    dynamic-lines:
-    - abovename
-    - nametag
-    - belowname
-    - another
-    static-lines:
-      myCustomLine: 0.66
 playerlist-objective:
   enabled: false
   value: '%ping%'
   fancy-value: '&7Ping: %ping%'
   disable-condition: '%world%=disabledworld'
+  title: Java Edition is better
+  render-type: INTEGER
 belowname-objective:
   enabled: true
-  number: '%health%'
-  text: '&4❤'
-  fancy-display-players: '&c%health%'
-  fancy-display-default: NPC
   disable-condition: '%world%=disabledworld'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%health%'
+  title: '&4❤'
 prevent-spectator-effect:
   enabled: true
 bossbar:
@@ -60,27 +49,18 @@ bossbar:
   remember-toggle-choice: false
   hidden-by-default: false
   bars:
-    #Restart:
-    #  style: PROGRESS
-    #  color: "GREEN"
-    #  #progress: "%countdown%/60"
-    #  progress: '%math_{%countdown%/60}%'
-    #  text: "Restart in %countdown% Sekunden"
-    #  announcement-bar: true #false or undefined means it will be visible all the time
     Maintenence:
       style: PROGRESS
-      color: "RED"
-      #progress: "%countdown%/60"
-      progress: "%math_{countdown}/{60}*100%"
-      text: "&4&lWartungsarbeiten beginnen in %countdown% Sekunden"
+      color: RED
+      progress: '%math_{tab_placeholder_bossbar_announce_time_left_Maintenence}/{tab_placeholder_bossbar_announce_time_total_Maintenence}*100%'
+      text: '&4&lWartungsarbeiten beginnen in %bossbar_announce_time_left_Maintenence% Sekunden'
       announcement-bar: true
-    Willkommen:
-      style: PROGRESS
-      color: "PURPLE"
-      progress: "100"
-      text: "Willkommen zum &5&l>> &dMeta SMP 3 &5&l<<"
-      announcement-bar: false
-
+    # Willkommen:
+    #   style: PROGRESS
+    #   color: PURPLE
+    #   progress: '100'
+    #   text: Willkommen zum &5&l>> &dMeta SMP 3 &5&l<<
+    #   announcement-bar: false
 scoreboard:
   enabled: false
   toggle-command: /sb
@@ -89,7 +69,6 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
   scoreboards:
     scoreboard-1.20.3+:
       title: <#E0B11E>MyServer</#FF0000>
@@ -133,31 +112,28 @@ layout:
     default:
       fixed-slots:
       - '1|&3Discord&f:'
-      - '2|&bdiscord.gg/2YvbptpAqz'
+      - 2|&bdiscord.gg/2YvbptpAqz
       - '4|&3Server-IP:'
-      - '5|blazes-meta.g-portal.works'
+      - 5|blazes-meta.g-portal.works
       - '6|&8&m                       '
-
-      - '21|Oberwelt'
+      - 21|Oberwelt
       - '22|&8&m                       '
-
-      - '41|Nether'
+      - 41|Nether
       - '42|&8&m                       '
-
       - '7|&3Rank&f:'
       - '8|Rank: %group%'
       - '10|&3World&f:'
-      - '11|&b%world%'
+      - 11|&b%world%
       - '13|&3Time&f:'
-      - '14|&b%time%'
+      - 14|&b%time%
       - '23|&8&m                       '
       groups:
         overworld:
-          condition: "%world%=world"
+          condition: '%world%=world'
           slots:
           - 24-40
         nether:
-          condition: "%world%=world_nether"
+          condition: '%world%=world_nether'
           slots:
           - 44-80
 ping-spoof:
@@ -182,16 +158,7 @@ conditions:
     false: ~%essentials_nickname%
   isDefault:
     conditions:
-      - "%group%=default"
-placeholderapi-refresh-intervals:
-  default-refresh-interval: 500
-  '%server_uptime%': 1000
-  '%server_tps_1_colored%': 1000
-  '%server_unique_joins%': 5000
-  '%player_health%': 200
-  '%player_ping%': 1000
-  '%vault_prefix%': 1000
-  '%rel_factionsuuid_relation_color%': 1000
+    - '%group%=default'
 assign-groups-by-permissions: false
 primary-group-finding-list:
 - Owner
@@ -235,6 +202,22 @@ global-playerlist:
     group2:
     - server1
     - server2
+  update-latency: false
 use-bukkit-permissions-manager: false
 use-online-uuid-in-tablist: true
 permission-refresh-interval: 1000
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+compensate-for-packetevents-bug: false
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
