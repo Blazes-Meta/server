@@ -1,0 +1,9 @@
+name: rang.owner
+parents:
+- perms.administration
+- perms.moderation
+- perms.pluginmanager
+- perms.servermanager
+suffixes:
+- ' &8[&#AE0000ᴏ&#C20000ᴡ&#D60000ɴ&#E90000ᴇ&#FD0000ʀ&8]':
+    priority: 100

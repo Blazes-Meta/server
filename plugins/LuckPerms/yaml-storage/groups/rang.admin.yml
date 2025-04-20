@@ -1,0 +1,7 @@
+name: rang.admin
+parents:
+- perms.administration
+- perms.moderation
+suffixes:
+- ' &8[&#AE1C1Cᴀ&#C22828ᴅ&#D73333ᴍ&#EB3F3Fɪ&#FF4A4Aɴ&8]':
+    priority: 100

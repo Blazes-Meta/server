@@ -1,0 +1,6 @@
+name: rang.mod
+parents:
+- perms.moderation
+suffixes:
+- ' &8[&#841B99ᴍ&#9A1DCCᴏ&#B01EFFᴅ&8]':
+    priority: 100
