@@ -24,6 +24,8 @@ settings:
   moved-too-quickly-multiplier: 10.0
   netty-threads: 4
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -34,7 +36,8 @@ settings:
   log-named-deaths: true
 messages:
   whitelist: Du stehst nicht auf der Gästeliste. Bitte wende dich an die Serverleitung
-  unknown-command: §cDer Befehl ist entweder nicht registriert, oder dir fehlt die Berechtigung
+  unknown-command: §cDer Befehl ist entweder nicht registriert, oder dir fehlt die
+    Berechtigung
   server-full: Der Server ist voll
   outdated-client: Veraltete Version! Bitte nutze {0}
   outdated-server: Veraltete Version! Bitte nutze {0}
@@ -55,10 +58,13 @@ commands:
   log: true
   tab-complete: 0
   send-namespaced: true
+  enable-spam-exclusions: false
 players:
   disable-saving: false
 world-settings:
   default:
+    unload-frozen-chunks: false
+    seed-trialchambers: 94251327
     below-zero-generation-in-existing-chunks: true
     merge-radius:
       item: 2.5

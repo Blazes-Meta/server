@@ -33,11 +33,14 @@ database:
 use-huskhomes: false
 # Hook into floodgate to handle bedrock players properly [Default value: false]. Needs FloodGate
 floodgate-hook: false
+placeholder:
+  # When the placeholder would be blank, the text below will be shown instead (you can use color codes)
+  not-in-a-team: ""
 team-tags:
   # Set the minimum length of the team prefix and name. [Default value: 3]
   min-character-limit: 3
   # Set the minimum length of the team prefix and name. [Default value: 8]
-  max-character-limit: 14
+  max-character-limit: 24
   # Should the plugin ignore color codes while checking the prefix length? [Default value: false]
   ignore-color-codes: false
   # Set below names that are not allowed to be used in prefixes or names. [They ARE case & syntax sensitive]

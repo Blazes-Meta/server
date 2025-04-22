@@ -1,19 +1,21 @@
 #Owner:
 #  tabprefix: "&0&l[&a&lOwner&0&l] &a"
 #  tagprefix: "&2&lOwner &a"
-Player:
-  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
-  tagprefix: "&2&lPlayer &3"
-example_group:
-  header:
-    - "This is an example of per-group header/footer"
-  footer:
-    - "applied to a group"
+# shiny:
+#   tabprefix: "&d"
+#   customtabname: "&d&l%player%&r"
+#   customtagname: "&d&l%player%&r"
+
+# example_group:
+#   header:
+#     - "This is an example of per-group header/footer"
+#   footer:
+#     - "applied to a group"
 
  # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
 _DEFAULT_:
-  tabprefix: "&l%changeoutput_equals_input:{ultimateteams_teamPrefix}_matcher:Not in a team_ifmatch:_else:{ultimateteams_teamPrefix} %&r"
-  tagprefix: "&l%ultimateteams_teamPrefix%&r "
+  tabprefix: "%changeoutput_equals_input:{ultimateteams_teamPrefix}_matcher:_ifmatch:_else:{ultimateteams_teamPrefix} %&r"
+  tagprefix: "%changeoutput_equals_input:{ultimateteams_teamPrefix}_matcher:_ifmatch:_else:{ultimateteams_teamPrefix} %&r"
   customtabname: "%player%"
   customtagname: "%player%" # don't forget to enable unlimited nametag mode to make this one work
   tabsuffix: " %luckperms-suffix%"

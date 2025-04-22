@@ -11,7 +11,7 @@ header-footer:
   - ''
   - '&7Uhrzeit &b%time%'
   - '&c[%tps% TPS]'
-  - '&c[%memory-used-gb% / %memory-max-gb% GB]'
+  #- '&c[%memory-used-gb% / %memory-max-gb% GB]'
   - <#ecd95e>&m                                                </#EB9A2F>
 tablist-name-formatting:
   enabled: true
@@ -40,7 +40,7 @@ belowname-objective:
   enabled: true
   disable-condition: '%world%=disabledworld'
   fancy-value-default: NPC
-  fancy-value: '&c%health%'
+  fancy-value: '%health%'
   value: '%health%'
   title: '&4❤'
 prevent-spectator-effect:
@@ -57,12 +57,12 @@ bossbar:
       progress: '%math_{tab_placeholder_bossbar_announce_time_left_Maintenence}/{tab_placeholder_bossbar_announce_time_total_Maintenence}*100%'
       text: '&4&lWartungsarbeiten beginnen in %bossbar_announce_time_left_Maintenence% Sekunden'
       announcement-bar: true
-    # Willkommen:
-    #   style: PROGRESS
-    #   color: PURPLE
-    #   progress: '100'
-    #   text: Willkommen zum &5&l>> &dMeta SMP 3 &5&l<<
-    #   announcement-bar: false
+    Info:
+      style: NOTCHED_20
+      color: PURPLE
+      progress: "%animation:TipsBar%"
+      text: "<#FFE535>%animation:Tips%</#E39A39>"
+      announcement-bar: false
 scoreboard:
   enabled: false
   toggle-command: /sb

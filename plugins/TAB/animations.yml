@@ -1,3 +1,40 @@
+Tips:
+  change-interval: 10000
+  texts:
+    - "Handle mit den Kartographen von Tavernen um Entdeckerkarten freizuschalten"
+    - "Spielern ist es erlaubt, ihren Spielstil frei zu wählen"
+    - "Das Knarzen scheint noch viel gefährlicher zu sein, als man erzählt …"
+    - "Stelle dein Spiel für ein immersiveres Erlebnis auf Englisch"
+    - "Teams können mit /team verwaltet werden"
+    - "Der Prefix eines Teams kann mit /team prefix und Farbcodes gesetzt werden"
+    - "Ein Team-Prefix sollte aus wenigen großgeschriebenen und fetten Buchstaben bestehen"
+    - "Dieser Server hat serverseitigen Distant Horizons Support"
+    - "Laut fremden Reisenden wurden neue heilige Herstellungsrezepte entdeckt ..."
+TipsBar:
+  change-interval: 500
+  texts:
+    - 0
+    - 5
+    - 10
+    - 15
+    - 20
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    - 75
+    - 80
+    - 85
+    - 90
+    - 95
+
+
 MyAnimation1:
   change-interval: 100
   texts:
@@ -75,34 +112,6 @@ vote:
   - '&a&nvote.domain.com'
   - '&5vote.domain.com'
   - '&5&nvote.domain.com'
-Welcome:
-  change-interval: 150
-  texts:
-  - '&7Wi_'
-  - '&7Will_'
-  - '&7Willko_'
-  - '&7Willkomm_'
-  - '&7Willkommen_'
-  - '&7Willkommen a_'
-  - '&7Willkommen auf_'
-  - '&7Willkommen auf d_'
-  - '&7Willkommen auf dem_ '
-  - '&7Willkommen auf dem '
-  - '&7Willkommen auf dem_'
-  - '&7Willkommen auf dem '
-  - '&7Willkommen auf dem_'
-  - '&7Willkommen auf dem '
-  - '&7Willkommen auf dem_'
-  - '&7Willkommen auf dem '
-  - '&7Willkommen auf dem_'
-  - '&7Willkommen auf d_'
-  - '&7Willkommen auf_'
-  - '&7Willkommen a_'
-  - '&7Willkommen_'
-  - '&7Willkomm_'
-  - '&7Willko_'
-  - '&7Will_'
-  - '&7Wi_'
 time:
   change-interval: 3000
   texts:
