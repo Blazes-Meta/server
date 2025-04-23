@@ -1,0 +1,110 @@
+# Config - Spectral Damage a plugin by TwiDev (Version 2.7.1)
+
+# Check for an update of the plugin at each start and warn the admins
+update_checker: true
+
+# The holograms are visible only to the player, if false the hologram will be visible to everyone
+# Activating this parameter also makes natural type damage indicators (poisons, fire, fall) on mobs (entities or players) visible to all other players
+showToDamagerOnly: true
+
+# The plugin will be activated by default for all players
+enable_by_default: true
+
+#allow only a group of players with (spectraldamage.show) permission to use the plugin
+restrict_by_permission: false
+
+# Maximum random coordinate on the X axis of the hologram location (cannot be negative)
+offset_x: 1.35
+# Maximum random coordinate on the Y axis of the hologram location (can be negative)
+offset_y: 0.8
+# Maximum random coordinate on the Z axis of the hologram location (cannot be negative)
+offset_z: 1.35
+
+falling_animation: false
+
+# Initial speed of the hologram allowing it to accelerate upwards before falling
+initial_speed: 1.15
+
+# Acceleration at which the hologram is attracted to the ground
+acceleration: 4.0
+
+# Number of decimal places of the number of damages displayed on the hologram
+damage_decimal: 1
+
+# Damage display format (placeholder %damage% will be replaced with damage value)
+# RBG supported use &<HEX> or &<LEGACY> to use color in damage format
+# Use <#FF6600> YOUR TEXT </#9DFF8A> to create gradient between two colors
+
+damage_format: "&7%damage%"
+
+# Minimum number of damage needed to display the hologram
+# leave the value at 0 to disable this option
+minimum_damage: 0
+
+# Defines if the critical damage should be displayed with the custom format
+critical_damage: true
+
+# Critical damage display format (placeholder %damage% will be replaced with damage value)
+critical_damage_format: "&c❁ %damage%"
+
+# Defines if the fire damage should be displayed with the custom format
+fire_damage: false
+
+# Fire damage display format (placeholder %damage% will be replaced with damage value)
+fire_damage_format: "&e- &6%damage% &eHP"
+
+# Defines if the poison damage should be displayed with the custom format
+poison_damage: false
+
+# Poison damage display format (placeholder %damage% will be replaced with damage value)
+poison_damage_format: "&a- &2%damage% &aHP"
+
+# Defines if the potion damage should be displayed with the custom format
+potion_damage: false
+
+# Potion (Only Harming Potion) damage display format (placeholder %damage% will be replaced with damage value)
+potion_damage_format: "&d- &5%damage% &dHP"
+
+# Defines if the projectile damage should be displayed with the custom format
+projectile_damage: false
+
+# Projectile damage display format (placeholder %damage% will be replaced with damage value)
+projectile_damage_format: "&c- &6%damage% &cHP"
+
+# Defines if the fall damage should be displayed with the custom format
+fall_damage: false
+
+# fall damage display format (placeholder %damage% will be replaced with damage value)
+fall_damage_format: "&f- &b%damage% &fHP"
+
+# Defines if the health regeneration should be displayed with the custom format
+health_regen: false
+
+# health regen display format (placeholder %damage% will be replaced with the value)
+health_regen_format: "&2+ &a%damage% &fHP"
+
+# Defines if the health gain should be displayed with the custom format
+health_gain: false
+
+# health gain display format (placeholder %damage% will be replaced with the value)
+health_gain_format: "&5+ &d%damage% &fHP"
+
+# hologram lifetime (Is fixed so that the hologram disappears after it is in the ground according to
+# at default initial speed and acceleration values)
+# Duration must be in ticks (1 seconds = 20 ticks)
+living_time: 23
+
+# Players are affected by damage display (true/false)
+player_damage_indicator: true
+
+# Entities (not players) are affected by damage display (true/false)
+entities_damage_indicator: true
+
+# Messages configuration
+
+message_prefix: "&c&lSpectralDamage &8-"
+message_config_reloaded: "Config file reloaded successfully!"
+message_cannot_toggle_indicator: "Impossible to change the visibility of the damage indicators because they are by default visible to everyone."
+message_indicator_toggle_on: "The visibility of damage indicators has been reactivated!"
+message_indicator_toggle_off: "The visibility of damage indicators has been disabled!"
+message_not_permission: "You do not have permission to perform this action"
