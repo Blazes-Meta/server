@@ -1,0 +1,8 @@
+# Environment
+.vscode
+
+# ------------
+# PLUGINS
+# ------------
+# PlayerStats
+plugins/PlayerStats/excluded_players.yml
