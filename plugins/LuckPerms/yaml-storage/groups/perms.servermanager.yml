@@ -2,4 +2,3 @@ name: perms.servermanager
 permissions:
 - bukkit.command.paper.reload
 - bukkit.command.reload
-- tab.announce.bar
