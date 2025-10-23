@@ -1,17 +1,32 @@
-*.jar
+paper*.jar
+server.jar
 /plugins/.paper-remapped
 
 # Environment
 .vscode
 
-# Data
+# Data Storage
 /logs
 /libraries
 /cache
 eula.txt
+banned-ips.json
+banned-players.json
+help.yml
+ops.json
+permissions.yml
+usercache.json
+version_history.json
+whitelist.json
+/world
+/world_nether
+/world_the_end
 
 # ------------
 # PLUGINS
 # ------------
 # PlayerStats
 plugins/PlayerStats/excluded_players.yml
+
+/plugins/spark
+/plugins/bStats
