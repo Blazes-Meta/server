@@ -1,7 +1,7 @@
 import shutil
 from pathlib import Path
 import fnmatch
-import pathspec  # pip install pathspec
+import pathspec
 
 exclude = [".vscode"]
 
